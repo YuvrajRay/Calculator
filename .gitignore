@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+dist/
+build/
+.env
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+.nyc_output/
+coverage/
+.eslintcache
+.prettierignore
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# Editor-specific files (e.g., for VS Code, Sublime Text, etc.)
+.vscode/
+.sublime-workspace
+.project
+.settings/
+*.tmproj
+*.esproj
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
