@@ -1,0 +1,14 @@
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: repeat(4, 75px);
+}
+button{
+    font-size: 2rem;
+}
+#screen{
+    height: 2rem;
+    width: 290px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
