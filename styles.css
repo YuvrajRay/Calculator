@@ -1,14 +1,35 @@
+body{
+    width: 310px;
+    margin: 10px auto;
+    background: black;
+}
+#container{
+    box-sizing: content-box;
+    border: solid 5px white;
+}
 #buttons{
     display: grid;
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: repeat(4, 75px);
+    width: 300px;
 }
 button{
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(50% 50% 50%);
 }
 #screen{
     height: 2rem;
-    width: 290px;
+    width: 292px;
     margin-bottom: 10px;
     font-size: 2rem;
+}
+button:hover{
+    background: rgb(50% 50% 60%);
+}
+button:active{
+    background: rgb(50% 50% 70%);
 }
